@@ -1,0 +1,30 @@
+body { background-color:#222; color:#1d201f;}
+h1 { margin-top:150px; text-align:center;}
+#slideshow-wrapper {
+  width: 960ppx;
+  height: 550px;
+  margin: 30px auto;
+}
+
+#slideshow {
+  margin-bottom: 5px;
+ width: 960ppx;
+  height: 550px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#slideshow img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  margin-right: 15px;
+  display: inline-block;
+  background-color: lightgrey;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+}
